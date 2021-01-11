@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('qa') {
+      steps {
+        echo 'This is a qa test'
+      }
+    }
+
   }
 }
